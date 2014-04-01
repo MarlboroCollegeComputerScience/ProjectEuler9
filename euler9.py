@@ -9,7 +9,18 @@
 
  In class for the programming workshop.
 
- Here's what a test looks like :
+ $ python euler9.py
+ The answer for 1000 is a,b,c = (200, 375, 425) and a*b*c = 31875000
+
+ The brute-force short approach without the anal comments and tests is :
+  $ python
+  >> for a in range(1,1000):
+  ...   for b in range(1,1000):
+  ...     c = 1000 - a - b
+  ...     if c > 0 and a<b and b<c and a*a+b*b==c*c:
+  ...       print "a,b,c = {} and a*b*c={}".format((a,b,c), a*b*c)
+  ... 
+  a,b,c = (200, 375, 425) and a*b*c=31875000
 
  Jim Mahoney | April 1 2014 | cs.marlboro.edu | MIT License
 """
