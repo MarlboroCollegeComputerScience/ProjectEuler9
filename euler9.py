@@ -9,8 +9,9 @@
 
  In class for the programming workshop.
 
- $ python euler9.py
+ $ time python euler9.py
  The answer for 1000 is a,b,c = (200, 375, 425) and a*b*c = 31875000
+ user 0m0.086s
 
  The brute-force short approach without the anal comments and tests is :
   $ python
