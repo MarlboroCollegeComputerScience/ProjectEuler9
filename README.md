@@ -7,3 +7,6 @@ project euler problem 9 in various languages:
  Python
  JavaScript
  Haskell
+ Ruby
+
+
